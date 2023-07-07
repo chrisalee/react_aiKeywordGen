@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+:root {
+  --font-family: 'Bacasime Antique', serif;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: var(--font-family);
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
